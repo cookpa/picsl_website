@@ -13,6 +13,9 @@ last_name: Chien
 status:
   icon: ☕️
 
+user_groups:
+- Principal Investigators
+
 # Is this the primary user of the site?
 superuser: true
 

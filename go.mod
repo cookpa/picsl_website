@@ -7,4 +7,8 @@ require (
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.2.1-0.20240602133901-492e343c2a33
 )
 
-require github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics v0.1.3 // indirect
+require (
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics v0.1.3 // indirect
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-core v0.3.1 // indirect
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-seo v0.2.3 // indirect
+)

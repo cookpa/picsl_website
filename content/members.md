@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: Meet the Team
 type: landing
 
@@ -23,5 +23,5 @@ sections:
       # Show user's role?
       show_role: true
       # Show user's organizations/affiliations?
-      show_organizations: true
---- -->
+      show_organizations: false
+---

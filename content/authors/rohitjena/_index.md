@@ -10,7 +10,7 @@ first_name: Rohit
 last_name: Jena
 
 user_groups:
-    - Researcher
+    - Researchers
 
 # Status emoji
 status:
@@ -25,90 +25,97 @@ highlight_name: true
 # Role/position/tagline
 role: PhD Student
 
+username: rohitjena
+
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: PICSL
     url: https://picsl.upenn.edu
+  - name: GRASP lab
+    url: https://www.grasp.upenn.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:firstinitial lastname (at nospam) seas .upenn (dot) edu'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://twitter.com/rohitrango
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/rohitrango
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/rohitrango
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=kZQQFE4AAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0002-8707-383X
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Deep Learning
+  - Image Registration
+  - Computer Vision
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Artificial Intelligence
+    institution: University of Pennsylvania
+    date_start: 2021-05-20
+    date_end: 2027-05-15
     summary: |
-      GPA: 3.4/4.0
+      Towards feature-aware deformable registration and unbiased evaluation.
+    # button:
+    #   text: 'Webpage'
+    #   url: 'https://jenaroh.it'
+
+  - area: Masters in Robotics
+    institution: Carnegie Mellon University
+    date_start: 2019-08-20
+    date_end: 2021-05-15
+    summary: |
+      GPA: 4.13/4.0
+
+      Masters Thesis: "Learning Mental Models of Experts in a Simulated Search and Rescue Scenario"
+    button:
+      text: Thesis PDF
+      url: https://www.ri.cmu.edu/app/uploads/2021/08/cmu_msr_thesis.pdf
+      
+  - area: BTech in Computer Science and Engineering
+    institution: Indian Institute of Technology, Bombay
+    date_start: 2015-07-20
+    date_end: 2019-05-15
+    summary: |
+      GPA: 9.56/10.0
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Machine Learning
+      - Data Structures and Algorithms
+      - Computer Vision
+      - Operating Systems
+      - Computer Networks
+
+      Undergraduate Thesis: "Perfect Sampling and Uncertainty Estimation in Deep Networks"
+      
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Deep Learning Research Intern
+    company_name: NVIDIA
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2024-05-20
+    date_end: '2024-09-06'
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      Alignment for text-to-image diffusion models
+      
+  - position: Applied Scientist Intern
+    company_name: Amazon Lab 126
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-05-20
+    date_end: 2022-08-20
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Mesh-NeRF/3DGS hybrid models for human avatar recovery
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -147,16 +154,17 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Hindi
+    percent: 90
+  - name: Odia
+    percent: 90
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+
   - title: Neural Networks and Deep Learning
     url: https://www.coursera.org/learn/neural-networks-deep-learning
     date: '2023-11-25'
@@ -164,6 +172,7 @@ awards:
     icon: coursera
     summary: |
       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+
   - title: Blockchain Fundamentals
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
@@ -174,6 +183,7 @@ awards:
       - Synthesize your own blockchain solutions
       - Gain an in-depth understanding of the specific mechanics of Bitcoin
       - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+
   - title: 'Object-Oriented Programming in R'
     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
     certificate_url: https://www.datacamp.com
@@ -193,27 +203,58 @@ sections:
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
+      title: "Welcome"
       username: rohitjena
-      text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/rohit-resume.pdf
     design:
       css_class: dark
       background:
-        color: black
+        color: system
         image:
           # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
-            brightness: 1.0
+            brightness: 1
           size: cover
           position: center
-          parallax: false
+          parallax: true
+  
+  ## whatever else you want to add
+  # - block: markdown
+  #   content:
+  #     title: More about me 👀
+  #     text: |-
+  #       lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  ## If you want to show off your skills
+  # - block: resume-experience
+  #   content:
+  #     # Choose a user profile to display (a folder name within `content/authors/`)
+  #     title: "Welcome"
+  #     username: rohitjena
+
+  ## If you want to show awards
+  # - block: resume-awards
+  #   content:
+  #     # Choose a user profile to display (a folder name within `content/authors/`)
+  #     title: "Awards"
+  #     username: rohitjena
 
 ---
 
-<!-- ## About Me
+<!-- This text will go on top of the file, checkout the reference image -->
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
+I’m a Ph.D. student in CIS at University of Pennsylvania advised by [Prof. James C. Gee](/member/jimgee) and [Prof. Pratik Chaudhari](https://pratikac.github.io/).
+
+I’m working on image registration, segmentation, and computer vision problems in general.
+
+I completed my Masters in Robotics at The Robotics Institute, Carnegie Mellon University where I was advised by [Prof. Katia Sycara](http://www.cs.cmu.edu/~sycara/). I also worked with [Prof. Kayhan Batmanghelich](https://www.batman-lab.com/) on segmentation of vascular structures in medical images.
+
+I completed my bachelors in Computer Science and Engineering from Indian Institute of Technology, Bombay in 2019. My undergraduate thesis is based on Perfect Sampling and Uncertainty Estimation in Deep Networks where I was advised by [Prof. Suyash P. Awate](https://www.cse.iitb.ac.in/~suyash/).
+
+In my free time, I like to hike 🥾, play drums 🥁 and learn stenography 🎹. 
+
+Check out my publications on my [Google Scholar](https://scholar.google.com/citations?user=kZQQFE4AAAAJ&hl=en) page.
