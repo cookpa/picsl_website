@@ -1,10 +1,17 @@
 ---
 title: 'Software'
 type: landing
+date: 2024-10-23
 
 design:
   # Section spacing
-  spacing: '5rem'
+  spacing: '3rem'
+
+# cascade:
+#   - _target:
+#       kind: page
+#     params:
+#       show_breadcrumb: true
 
 # Page sections
 sections:
@@ -17,6 +24,5 @@ sections:
           - software
     design:
       view: article-grid
-      fill_image: false
-      columns: 3
+      columns: 2
 ---
