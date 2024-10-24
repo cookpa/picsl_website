@@ -4,6 +4,8 @@ summary: Adaptive Riemannian Optimization for Multi-Scale Diffeomorphic Registra
 date: 2024-10-23
 authors:
   - rohitjena
+  - Pratik Chaudhari
+  - jimgee
 tags:
   - Image Registration
   - Pytorch
