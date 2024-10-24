@@ -14,14 +14,30 @@ image:
 
 The FireANTs library is a lightweight registration package for Riemannian diffeomorphic registration on GPUs.
 
+## Features
+
+Currently, FireANTs supports the following forms of registration:
+![Registration types](fireants_features.png)
+
+Moreover, it supports the following similarity metrics:
+- Cross-correlation
+- Mutual information
+- Mean squared error
+- Custom similarity metrics (see [Tutorial](https://github.com/rohitrango/FireANTs/blob/fireants/tutorials/%5BTutorial%202%5D%20Custom%20loss%20functions.ipynb))
+
+FireANTs also provides functionality for saving transformations in the ANTs formats for seamless integration with existing workflows.
+
+We also provide scripts for template building.
+
 ## Core Idea
 
 The initial motivations were to create a GPU reimplementation of the widely used [ANTs](https://github.com/ANTsX/ANTs) library. 
-
 However, we improved upon the initial implementation to implement first-order adaptive algorithms (like Adam) on Riemannian manifolds, specifically for multi-scale diffeomorphisms.
 
+![Rie](rie.png)
 
-```markmap {height="200px"}
+<!-- You can use this markmap directly but it has some scrolling issue, I just screenshotted it into an image -->
+<!-- ```markmap {height="200px"}
 - 🔥 FireANTs
   - Moment matching 
     - Center of mass
@@ -31,52 +47,16 @@ However, we improved upon the initial implementation to implement first-order ad
   - Deformable
     - Greedy (not symmetric)
     - SyN (symmetric)
-```
+``` -->
 
-## Diagrams
+## Installation 
 
-Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
+Follow the instructions on the [GitHub page](https://github.com/rohitrango/FireANTs) . 
 
-An example **Gantt diagram**:
+### Documentation
 
-    ```mermaid
-    gantt
-    section Section
-    Completed :done,    des1, 2014-01-06,2014-01-08
-    Active        :active,  des2, 2014-01-07, 3d
-    Parallel 1   :         des3, after des1, 1d
-    Parallel 2   :         des4, after des1, 1d
-    Parallel 3   :         des5, after des3, 1d
-    Parallel 4   :         des6, after des4, 1d
-    ```
+Coming soon.
 
-renders as
+## Support and Contributions
 
-```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-
-## Todo lists
-
-You can even write your todo lists in Markdown too:
-
-```markdown
-- [x] Write math example
-  - [x] Write diagram example
-- [ ] Do something else
-```
-
-renders as
-
-- [x] Write math example
-  - [x] Write diagram example
-- [ ] Do something else
-
-## Did you find this page helpful? Consider sharing it 🙌
+Feel free to [add issues](https://github.com/rohitrango/fireants/issues/new) or [pull requests](https://github.com/rohitrango/fireants/compare) to the repository. We welcome contributions to the package.
