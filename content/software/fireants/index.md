@@ -12,6 +12,7 @@ tags:
 image:
   caption: 'FireANTs teaser'
   filename: "featured.png"
+external_link: https://github.com/rohitrango/fireants
 ---
 
 The FireANTs library is a lightweight registration package for Riemannian diffeomorphic registration on GPUs.
