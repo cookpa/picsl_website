@@ -3,6 +3,8 @@
 This repository contains the source code for the PICSL lab website. Please see the [theme
 README](README_theme.md) for technical information.
 
+[Click here](https://picslupenn.github.io/website/) to view the website.
+
 
 # Contributor guide
 
