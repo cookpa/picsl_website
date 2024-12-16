@@ -3,7 +3,7 @@
 title: Huzheng Yang
 
 # Name pronunciation (optional)
-name_pronunciation: 
+name_pronunciation:
 
 # Full name (for SEO)
 first_name: Huzheng
@@ -68,12 +68,38 @@ education:
     #   text: 'Webpage'
     #   url: 'https://jenaroh.it'
 
+type: landing
+
+design:
+  # Default section spacing
+  spacing: "6rem"
+
+sections:
+  - block: resume-biography-3
+    content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      title: "Welcome"
+      username: huzhengyang
+      # Show a call-to-action button under your biography? (optional)
+    design:
+      css_class: dark
+      background:
+        color: system
+        image:
+          # Add your image background to `assets/media/`.
+          filename: stacked-peaks.svg
+          filters:
+            brightness: 1
+          size: cover
+          position: center
+          parallax: true
+
 ---
 
 <!-- This text will go on top of the file, checkout the reference image -->
 
 
-I'm a PhD student at University of Pennsylvania, co-advised by [James C. Gee](https://www.med.upenn.edu/apps/faculty/index.php/g5455356/p10656) and [Jianbo Shi](https://www.cis.upenn.edu/~jshi/). 
+I'm a PhD student at University of Pennsylvania, co-advised by [James C. Gee](https://www.med.upenn.edu/apps/faculty/index.php/g5455356/p10656) and [Jianbo Shi](https://www.cis.upenn.edu/~jshi/).
 
 1. Computer Vision: segmentation, correspondence, un-supervised methods.
 
