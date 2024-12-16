@@ -1,3 +1,10 @@
+The website theme code is from the "theme-academic-cv" 
+(https://github.com/HugoBlox/theme-academic-cv) and is distributed under the
+MIT License. 
+
+Original content added to the site is Copyright (c) 2024-present by its contributors,
+and distributed under the MIT license.
+
 MIT License
 
 Copyright (c) 2023-present George Cushen (https://georgecushen.com/)
@@ -19,3 +26,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
