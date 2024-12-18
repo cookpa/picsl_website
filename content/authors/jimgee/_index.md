@@ -207,10 +207,6 @@ sections:
           position: center
           parallax: true
 
-<!-- This text will go on top of the file, checkout the reference image -->
-Professor Gee's major area of interest is biomedical image analysis and computing, with active research in quantitative methods including segmentation, registration, morphometry and shape statistics. He is interested in the study of all organ systems using both established and emerging imaging modalities and biological/biomaterials imaging as well as in vivo medical imaging.
-
-
   ## whatever else you want to add
   # - block: markdown
   #   content:
@@ -233,3 +229,5 @@ Professor Gee's major area of interest is biomedical image analysis and computin
   #     username: rohitjena
 
 ---
+<!-- This text will go on top of the file, checkout the reference image -->
+Professor Gee's major area of interest is biomedical image analysis and computing, with active research in quantitative methods including segmentation, registration, morphometry and shape statistics. He is interested in the study of all organ systems using both established and emerging imaging modalities and biological/biomaterials imaging as well as in-vivo medical imaging.
