@@ -31,12 +31,8 @@ username: jimgee
 organizations:
   - name: PICSL
     url: https://picsl.upenn.edu
-  - name: GRASP lab
-    url: https://www.grasp.upenn.edu
   - name: Department of Radiology
     url: https://www.pennmedicine.org/departments-and-centers/department-of-radiology
-  - name: Institute for Translational Medicine and Therapeutics
-    url: https://www.itmat.upenn.edu
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
