@@ -100,7 +100,6 @@ technical inquiries about ANTsX, please use the issue templates or discussion fo
 the ANTsX pages, rather than emailing me directly.
 
 I am fortunate to collaborate with a number of talented researchers and clinicians from
-several groups including the [Penn FTD Center](https://www.pennftdcenter.org),
-[PennLINC](https://www.pennlinc.io).
+several groups including the [Penn FTD Center](https://www.pennftdcenter.org) and [PennLINC](https://www.pennlinc.io).
 
 Publications are listed on my [Google Scholar](https://scholar.google.com/citations?user=Nhl7_a0AAAAJ&hl=en) page.
