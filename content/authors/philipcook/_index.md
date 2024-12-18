@@ -38,8 +38,8 @@ profiles:
   - icon: at-symbol
     url: 'mailto:cookpa (at nospam) pennmedicine (not spamming) .upenn.edu'
     label: E-mail Me
-    - icon: brands/x
-      url: https://twitter.com/cookni1
+  - icon: brands/x
+    url: https://twitter.com/cookni1
   # - icon: brands/instagram
   #   url: https://www.instagram.com/
   - icon: brands/github
