@@ -35,9 +35,9 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  # - icon: at-symbol
-      url: 'mailto:cookpa (at nospam) pennmedicine (not spamming) .upenn.edu'
-      label: E-mail Me
+  - icon: at-symbol
+    url: 'mailto:cookpa (at nospam) pennmedicine (not spamming) .upenn.edu'
+    label: E-mail Me
     - icon: brands/x
       url: https://twitter.com/cookni1
   # - icon: brands/instagram
@@ -47,7 +47,7 @@ profiles:
   # - icon: brands/linkedin
   #   url: https://www.linkedin.com/in/rohitrango
   - icon: academicons/google-scholar
-      url: https://scholar.google.com/citations?user=Nhl7_a0AAAAJ&hl=en
+    url: https://scholar.google.com/citations?user=Nhl7_a0AAAAJ&hl=en
   # - icon: academicons/orcid
   #   url: https://orcid.org/0000-0002-8707-383X
 
