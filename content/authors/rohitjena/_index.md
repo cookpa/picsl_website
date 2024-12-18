@@ -3,7 +3,7 @@
 title: Rohit Jena
 
 # Name pronunciation (optional)
-name_pronunciation: 
+name_pronunciation:
 
 # Full name (for SEO)
 first_name: Rohit
@@ -20,7 +20,7 @@ status:
 superuser: true
 
 # Highlight the author in author lists? (true/false)
-highlight_name: true
+highlight_name: false
 
 # Role/position/tagline
 role: PhD Student
@@ -81,14 +81,14 @@ education:
     button:
       text: Thesis PDF
       url: https://www.ri.cmu.edu/app/uploads/2021/08/cmu_msr_thesis.pdf
-      
+
   - area: BTech in Computer Science and Engineering
     institution: Indian Institute of Technology, Bombay
     date_start: 2015-07-20
     date_end: 2019-05-15
     summary: |
       GPA: 9.56/10.0
-      
+
       Courses included:
       - Machine Learning
       - Data Structures and Algorithms
@@ -97,7 +97,7 @@ education:
       - Computer Networks
 
       Undergraduate Thesis: "Perfect Sampling and Uncertainty Estimation in Deep Networks"
-      
+
 work:
   - position: Deep Learning Research Intern
     company_name: NVIDIA
@@ -107,7 +107,7 @@ work:
     date_end: '2024-09-06'
     summary: |2-
       Alignment for text-to-image diffusion models
-      
+
   - position: Applied Scientist Intern
     company_name: Amazon Lab 126
     company_url: ''
@@ -221,7 +221,7 @@ sections:
           size: cover
           position: center
           parallax: true
-  
+
   ## whatever else you want to add
   # - block: markdown
   #   content:
@@ -255,6 +255,6 @@ I completed my Masters in Robotics at The Robotics Institute, Carnegie Mellon Un
 
 I completed my bachelors in Computer Science and Engineering from Indian Institute of Technology, Bombay in 2019. My undergraduate thesis is based on Perfect Sampling and Uncertainty Estimation in Deep Networks where I was advised by [Prof. Suyash P. Awate](https://www.cse.iitb.ac.in/~suyash/).
 
-In my free time, I like to hike 🥾, play drums 🥁 and learn stenography 🎹. 
+In my free time, I like to hike 🥾, play drums 🥁 and learn stenography 🎹.
 
 Check out my publications on my [Google Scholar](https://scholar.google.com/citations?user=kZQQFE4AAAAJ&hl=en) page.
